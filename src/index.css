@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  text-decoration: none;
+}
+.sacentri {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(206, 213, 199, 0.721), rgb(222, 212, 212));
+}
+.fr {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sc {
+  width: 35%;
+  height: auto;
+  min-height: 75%;
+  background-color: white;
+  border: 4px solid black;
+  border-radius: 15px;
+}
+
+.td {
+  margin-left: 25%;
+  font-size: 25px;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.inpt {
+  display: block;
+  width: 200px;
+  height: 12px;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 18px;
+}
+.sub {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  border-radius: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 65px;
+  margin-top: 15px;
+}
+.ch {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+.hh {
+  margin-left: 25%;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 300;
+}
+.sasa {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  border-radius: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5px;
+}
+
+@media (max-width: 1360px) {
+  .td {
+    margin-left: 25%;
+    font-size: 20px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .inpt {
+    display: block;
+    width: 180px;
+    height: 9px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 13px;
+  }
+  .sub {
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-left: 55px;
+    margin-top: 12px;
+  }
+}
+@media (max-width: 1360px) {
+  .td {
+    margin-left: 20%;
+  }
+  .sub {
+    margin-left: 45px;
+    margin-top: 10px;
+  }
+  .hh {
+    margin-left: 20%;
+    width: 250px;
+    font-size: 25px;
+  }
+  .sasa {
+    width: 130px;
+    height: 28px;
+    font-size: 17px;
+    margin-top: 1px;
+  }
+}
+@media (max-width: 1060px) {
+  .inpt {
+    width: 150px;
+    height: 6px;
+    font-size: 10;
+  }
+  .sub {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 960px) {
+  .td {
+    margin-left: 20%;
+    font-size: 17px;
+  }
+  .inpt {
+    width: 130px;
+    height: 5px;
+    font-size: 80;
+  }
+  .hh {
+    margin-left: 17%;
+    width: 240px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 960px) {
+  .sub {
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 65px;
+    height: 30px;
+  }
+}
+@media (max-width: 860px) {
+  .hh {
+    margin-left: 14%;
+    width: 220px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 800px) {
+  .td {
+    margin-left: 15%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 760px) {
+  .sc {
+    width: 55%;
+  }
+  .td {
+    margin-left: 25%;
+    font-size: 16px;
+  }
+  .inpt {
+    width: 110px;
+    height: 4px;
+    font-size: 50;
+  }
+  .hh {
+    margin-left: 11%;
+    width: 190px;
+    font-size: 17px;
+  }
+}
+@media (max-width: 550px) {
+  .td {
+    margin-left: 15%;
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .sasa {
+    width: 120px;
+    height: 26px;
+    font-size: 15px;
+    border: 3px solid black;
+  }
+}
+@media (max-width: 400px) {
+  .hh {
+    margin-left: 5px;
+  }
+  .sasa {
+    width: 100px;
+    height: 22px;
+    font-size: 10px;
+    border: 3px solid black;
+  }
+}
